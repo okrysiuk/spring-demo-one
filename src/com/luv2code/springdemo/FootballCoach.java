@@ -26,5 +26,16 @@ public class FootballCoach implements Coach {
 		
 		return "Just do it: " + fortuneService.getFortune();
 	}
+	
+	//add init method
+	public void doMyStartupStuff() {
+		System.out.println("Football coach: inside method doMyStartupStuff");
+	}
+	
+	
+	//add destroy method
+	public void domyCleanupStuffYoYo() {
+		System.out.println("Football coach: inside method domyCleanupStuffYoYo");
+	}
 
 }
